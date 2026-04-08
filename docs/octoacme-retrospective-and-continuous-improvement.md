@@ -19,7 +19,13 @@ After each sprint, release, or important milestone. Also after incidents.
 
 ## Tracking Improvements
 - Add action items to the project backlog or issues with clear owners and timelines
-- Review outstanding actions in the weekly PM sync
+- **Create as GitHub Issues:** Every action item from a retrospective must be opened as a GitHub Issue with:
+  - Label: `retro-action`
+  - Assignee: the owner
+  - Due date: set as the milestone or issue due date
+  - Link back to the retro meeting notes in the issue body
+- Review outstanding actions in the weekly PM sync and update status
+- **Follow-up:** At the start of the next retrospective, review all open `retro-action` issues. Close resolved items; re-prioritize or escalate any that are overdue.
 
 ## Example Action Item Template
 - Title:
@@ -27,6 +33,10 @@ After each sprint, release, or important milestone. Also after incidents.
 - Owner:
 - Due date:
 - Success criteria:
+- GitHub Issue label: `retro-action`
+- GitHub Issue link:
+
+> **Note:** Use the [Meeting Notes — Retrospective Template](./octoacme-templates-meeting-notes.md) to capture retro notes and generate action items in a consistent format.
 
 ## Continuous Improvement Culture
 - Measure impact of action items

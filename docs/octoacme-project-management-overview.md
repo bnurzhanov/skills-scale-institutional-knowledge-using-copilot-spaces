@@ -24,9 +24,12 @@ Applies to all cross-functional projects that deliver product features, services
 - Project Charter / One-pager
 - Roadmap and Release Plan
 - Sprint/Iteration Backlog
-- Acceptance Criteria & Definition of Done
-- Risk Register
+- [Definition of Ready & Definition of Done](./octoacme-templates-definition-of-ready-and-done.md)
+- [Risk Register](./octoacme-templates-risk-register.md)
+- [Decision Log](./octoacme-templates-decision-log.md)
+- [Meeting Notes](./octoacme-templates-meeting-notes.md) (kickoff, weekly sync, retrospective)
 - Retrospective notes and action items
+- [Project Closeout Checklist](./octoacme-project-closeout.md)
 
 ## Lifecycle (high-level)
 1. Initiation: problem statement, stakeholders, high-level timeline.

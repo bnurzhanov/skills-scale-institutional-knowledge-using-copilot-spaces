@@ -10,11 +10,17 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 
 ## Workflows
 - Use the project board (e.g., GitHub Projects) with columns: Backlog, Ready, In Progress, In Review, QA, Done
+  - **WIP limits (recommended):** In Progress ≤ 2 per developer; In Review ≤ 3 per team. Adjust per sprint planning.
 - Pull Request workflow:
   - Small PRs (<= 400 lines when possible)
   - Include issue link and acceptance criteria in PR description
   - Run automated tests and linting in CI before requesting review
   - Require at least one approval before merging (or team-defined policy)
+- **Issue hygiene:**
+  - Every issue must have acceptance criteria before it can be moved to "In Progress" (see [Definition of Ready](./octoacme-templates-definition-of-ready-and-done.md))
+  - Issues must be linked to the implementing PR and to the release milestone for traceability: Issue → PR → Release Notes
+  - All issues must be labeled (e.g., `feature`, `bug`, `tech-debt`, `action-item`) and assigned an owner
+- **Traceability:** Ensure that every user-facing change has a corresponding issue, a merged PR that references the issue (`Closes #N`), and a release notes entry. Use this chain to audit what shipped in each release.
 
 ## Quality & Testing
 - Unit tests for new logic
@@ -37,4 +43,8 @@ Guidance for managing day-to-day execution and tracking progress toward project 
 - [ ] Branching and PR conventions documented in repo
 - [ ] CI configured for tests and lint
 - [ ] Regular demos scheduled
-- [ ] Risk register updated weekly
+- [ ] [Risk Register](./octoacme-templates-risk-register.md) updated weekly
+- [ ] All issues have acceptance criteria before moving to "In Progress"
+- [ ] Issue → PR → Release Notes traceability enforced
+- [ ] WIP limits agreed and visible on the project board
+- [ ] [Weekly sync notes](./octoacme-templates-meeting-notes.md) published within 24 hours
