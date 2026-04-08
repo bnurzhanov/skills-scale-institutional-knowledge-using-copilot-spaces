@@ -16,8 +16,9 @@ Whenever a new project idea or feature proposal is ready to be explored.
 - Project One-pager (Problem, Goal, Success Metrics)
 - Stakeholder list & communication plan
 - High-level timeline and key milestones
-- Initial risk list
+- Initial risk list (use the [Risk Register Template](./octoacme-templates-risk-register.md))
 - Resource needs (team roles, rough effort estimate)
+- Initial [Decision Log](./octoacme-templates-decision-log.md) entry for the go/no-go decision
 
 ## Project One-pager Template
 - Project name:
@@ -32,9 +33,11 @@ Whenever a new project idea or feature proposal is ready to be explored.
 ## Initiation Checklist
 - [ ] One-pager completed and reviewed by Product Lead
 - [ ] Sponsor / Stakeholder alignment (email or meeting)
-- [ ] Decision: Approve to move into planning?
+- [ ] Decision: Approve to move into planning? (log in [Decision Log](./octoacme-templates-decision-log.md))
 - [ ] Create repo or project board skeleton
 - [ ] Add initial artifacts to repo (docs/ or .copilot/)
+- [ ] [Risk Register](./octoacme-templates-risk-register.md) created with initial risks
+- [ ] [Definition of Ready & Done](./octoacme-templates-definition-of-ready-and-done.md) shared with the team
 
 ## Decision Gate
 Move to planning when:
